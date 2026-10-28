@@ -1,0 +1,41 @@
+# Prompt improvement: Study plan
+
+**Original prompt:** "Give me a study plan."
+
+**Problem:** No subject, time frame, or level, so the AI can only give a generic plan.
+
+**Improved prompt:** "I'm a beginner learning Python for data cleaning. Make a 4-week plan with 30 minutes a day. Use a table with columns for week, topic, and practice task."
+
+## What changed
+
+- Added my level, goal, and time limit.
+- Asked for a specific format.
+
+## Result
+
+[## Result
+
+### Response to the original prompt
+
+> **Study Plan**
+> 1. Set clear goals for what you want to learn.
+> 2. Create a schedule and stick to it.
+> 3. Take regular breaks.
+> 4. Review your notes often.
+> 5. Test yourself to check your progress.
+
+### Response to the improved prompt
+
+> | Week | Topic | Practice task |
+> |---|---|---|
+> | 1 | Python basics: variables, lists, loops | Write a script that prints the squares of 1 to 10 |
+> | 2 | Loading CSV files with pandas | Load a public CSV and show the first 5 rows |
+> | 3 | Finding and fixing missing values | Count missing values per column, then fill or drop them |
+> | 4 | Removing duplicates and fixing formats | Clean a messy dataset and save it as a new CSV |
+
+### How the second response was better
+
+- **More specific:** The first answer is generic advice that fits any subject. The second names real topics, such as loading CSV files and handling missing values, that match my goal of learning data cleaning.
+- **More usable:** The second fits my 4-week time frame and gives a task for each week, so I could start the same day. The first leaves me to work out what to study and when.
+- **Right format:** I asked for a table with week, topic, and practice task columns, and the response followed it exactly. The first response ignored format because I had not asked for one.
+- **Main lesson:** The AI can only be as specific as the prompt. Adding my level, goal, time limit, and format turned a generic list into a plan I could follow.]
